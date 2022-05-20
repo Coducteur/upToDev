@@ -4,6 +4,9 @@ body {
   font-size: 1.1em;
 }
 
-#history {
-  background-color: lightskyblue;
+#welcome {
+  text-align: center;
+  height: 800px;
+  background-image: url("assets/sailboat.png");
+  background-size: cover;
 }
