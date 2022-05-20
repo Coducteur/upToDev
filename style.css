@@ -26,3 +26,7 @@ h1 {
   font-size: 1.7em;
   color: blueviolet;
 }
+
+table {
+  text-align: center;
+}
