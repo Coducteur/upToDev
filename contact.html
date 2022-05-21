@@ -1,28 +1,30 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width" />
     <link rel="stylesheet" href="style.css" type="text/css" />
     <title>The Argo</title>
   </head>
+
   <body>
     <header></header>
     <!--Content goes here-->
     <main>
-      <h1>Contact Us:</h1>
-      <section id="contact">
-        <form action="thx.html">
+      <h2>Contact Us:</h2>
+      <section id="form">
+        <form id="formContact">
           <label for="firstName">First Name:</label><br />
           <input type="text" id="firstName" name="fname" /><br />
           <label for="lastName">Last Name:</label><br />
           <input type="text" id="lastName" name="lname" /><br />
-          <label for="mail">Mail :</label><br />
-          <input type="mail" name="mail" id="mail" /><br />
+          <label for="email">Mail :</label><br />
+          <input type="email" name="email" id="email" /><br />
           <label for="text">Your message:</label><br />
           <textarea name="text" id="text" cols="60" rows="20"></textarea>
-          <input type="submit" text="submit" />
+          <input type="submit" value="submit" />
         </form>
+        <script src="script.js"></script>
       </section>
     </main>
     <footer></footer>
