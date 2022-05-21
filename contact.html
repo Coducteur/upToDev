@@ -8,10 +8,25 @@
   </head>
 
   <body>
-    <header></header>
+    <header class="flex-container">
+      <div id="logo">
+        <img src="assets/the-argo-logo-black.png" alt="" />
+      </div>
+      <nav id="mainNav">
+        <ul class="flex-container-Nav">
+          <li><a href="/index.html">Accueil</a></li>
+          <li><a href="/index.html">Histoire</a></li>
+          <li><a href="/heroes.html">Heros</a></li>
+          <li><a href="/inventory.html">Inventaire</a></li>
+          <li><a href="/contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
     <!--Content goes here-->
     <main>
       <h2>Contact Us:</h2>
+
+      <!-- form -->
       <section id="form">
         <form id="formContact">
           <label for="firstName">First Name:</label><br />
@@ -24,6 +39,8 @@
           <textarea name="text" id="text" cols="60" rows="20"></textarea>
           <input type="submit" value="submit" />
         </form>
+
+        <!-- +popup when form is sending -->
         <script src="script.js"></script>
       </section>
     </main>

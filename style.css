@@ -14,13 +14,20 @@ h1 {
   background-image: url("assets/sailboat.png");
   background-size: cover;
 }
-
+#mainNav a {
+  padding: 30px;
+}
 .flex-container {
   display: flex;
   text-align: center;
   justify-content: space-around;
 }
-
+.flex-container-Nav {
+  width: 1fr;
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+}
 .nameHeroes {
   margin-top: 10px;
   font-size: 1.7em;
@@ -29,4 +36,9 @@ h1 {
 
 table {
   text-align: center;
+}
+
+input,
+textarea {
+  width: 90%;
 }
